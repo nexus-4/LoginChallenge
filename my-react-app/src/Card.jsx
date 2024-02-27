@@ -35,6 +35,8 @@ function Card() {
 
     return (
       <div style={{width:'100vw', height:'100vh'}}className="flex justify-center items-center h-screen w-screen bg-orange-100 text-white">
+
+        {/* Background circles */}
         <div className="absolute top-40 blur w-52 h-52 rounded-full bg-red-500"> </div>
         <div className="absolute top-2/5 left-40 blur w-96 h-96 rounded-full bg-green-600"> </div>
         <div className="absolute top-3/4 left-1/2 blur w-96 h-96 rounded-full bg-sky-500"> </div>
